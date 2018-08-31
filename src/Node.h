@@ -38,7 +38,7 @@ class Node
 			@brief Returns a vector containing all the children of the current node.
 			@return A vector of Node pointers.
 		*/
-		std::vector<std::pair<Node*, float>>& getChildren();
+		std::vector<std::pair<Node*, float> >& getChildren();
 
 	protected:
 
@@ -55,5 +55,5 @@ class Node
 		/**
 			List of all the node's children.
 		*/
-		std::vector<std::pair<Node*, float>> m_children;
+		std::vector<std::pair<Node*, float> > m_children;
 };

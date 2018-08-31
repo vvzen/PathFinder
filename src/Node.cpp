@@ -12,7 +12,7 @@ Node* Node::getParent() const
 	return m_parent;
 }
 
-std::vector<std::pair<Node*, float>>& Node::getChildren()
+std::vector<std::pair<Node*, float> >& Node::getChildren()
 {
 	return m_children;
 }
