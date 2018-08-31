@@ -113,7 +113,7 @@ int main(int argc, char** argv)
 	else
 		std::cerr << "No path was found, sorry." << std::endl;
 
-	std::getchar();
+	//std::getchar();
 
 	return 0;
 }
